@@ -39,11 +39,11 @@ a{
   padding: 20px;
 }
 /*.search input{
-	
+
 }*/
 button{
 	border:none;
-	background-color:rgb(244, 247, 241);
+
 	}
 button:focus{
 	border-color:rgb(244, 247, 241);
@@ -122,7 +122,7 @@ input{
 .hero .email a:hover{
 	color:#00F;
 }
-.hero .namecard img{
+.hero .namecard > img{
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -162,11 +162,36 @@ input{
 	display:none;
 }
 
+.my-book  img{
+	height:250px;
+	width:200px;
+	padding:25px;
+
+}
+.watched-book  img{
+	height:250px;
+	width:200px;
+	padding:25px;
+}
+.followed  img{
+	height:100px;
+	width:100px;
+	padding:20px;
+	border-radius:50%;
+}
+.following  img{
+	height:100px;
+	width:100px;
+	padding:20px;
+	border-radius:50%;	
+}
 .footer{
   background:#E1E1E1;
   height: 70px;
 }
-
+.footer ul{
+	margin-left:325px;
+}
 .footer li{
   float: left;
 }
